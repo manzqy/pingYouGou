@@ -2,7 +2,7 @@ $(function() {
     let data = ``;
     phoneData.forEach(function(e, i) {
        data += `<li class="goods-list-item">
-       <a href="detail.html">
+       <a href="detail.html?id=${e.pID}">
          <div class="item-img">
            <img src="${e.imgSrc}" alt="">
          </div>
